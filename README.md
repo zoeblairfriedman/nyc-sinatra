@@ -19,7 +19,7 @@ Our client has decided that the history app we're building them should have a sp
 Write migrations to create the following tables:
 
 
-**Figure**
+**Figures**
 
 | **id**             | **name**          |
 |:------------------:|:-----------------:|
@@ -39,8 +39,8 @@ Write migrations to create the following tables:
 | **id**             | **name**               | **figure_id** | **year_completed** |
 |:------------------:|:----------------------:|:--------------|--------------------|
 | 1                  | BQE                    | 1             |  1947              |
-| 2                  | Holland Tunnel         | 5             |  50 B.C.           |
-| 3                  | Wall Street Wall       |3              |  1684              |
+| 2                  | Holland Tunnel         | 5             |  1927              |
+| 3                  | Wall Street Wall       |4              |  1684              |
 | 4                  | Brooklyn Battery Tunnel|10             |  1973              |
 
 
@@ -92,9 +92,10 @@ Now, use the `has_many`, `belongs_to` and `has_many, :through` macros to set up 
 
 You should create a Landmarks Controller and a Figures Controller. This lab is test-driven and will also require you to think outside the box to get things working. 
 
-Your forms will need to be complex. Your form for a new figure should dynamically generate checkboxes out of the available landmarks and titles. It should also have fields for creating a new landmark and/or a new title. The controller action that catches the POST request sent by submitting this form should account for this. The same is true of you form for editing a given figure. Read the tests very carefully to understand how you should set up your forms. 
+Your forms will need to be complex. Your form for a new figure should dynamically generate checkboxes out of the available landmarks and titles. It should also have fields for creating a new landmark and/or a new title. The controller action that catches the POST request sent by submitting this form should account for this. The same is true of your form for editing a given figure. Read the tests very carefully to understand how you should set up your forms. 
 
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
 
+<p class='util--hide'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
