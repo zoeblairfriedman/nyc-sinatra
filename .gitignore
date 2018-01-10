@@ -35,4 +35,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-Gemfile.lock
+db/schema.rb
