@@ -1,4 +1,5 @@
 class CreateLandmarks < ActiveRecord::Migration[4.2]
+<<<<<<< HEAD
   def change
     create_table :landmarks do |t|
       t.string :name
@@ -7,5 +8,8 @@ class CreateLandmarks < ActiveRecord::Migration[4.2]
       t.timestamps
     end
   end
+=======
+  raise "Write CreateLandmarks migration here"
+>>>>>>> master
 end
 
