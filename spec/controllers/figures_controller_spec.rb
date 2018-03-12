@@ -114,6 +114,6 @@ describe FiguresController do
     expect(page.body).to include("Big Tower")
 
     @updated_figure = Figure.first
-    expect(@figure.name).to eq("Missy")
+    expect(@updated_figure.name).to eq("Missy")
   end
 end
