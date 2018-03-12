@@ -80,7 +80,7 @@ describe LandmarksController do
       visit "/figures/new"
       expect(page).to have_css("input[type=\"checkbox\"]")
       expect(page).to have_content('BQE')
-     Title.create(:name => "Mayor")
+      Title.create(:name => "Mayor")
       visit "/figures/new"
       expect(page).to have_css("input[type=\"checkbox\"]")
       expect(page).to have_content('Mayor')
