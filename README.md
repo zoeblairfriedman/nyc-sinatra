@@ -96,6 +96,10 @@ You should create a Landmarks Controller and a Figures Controller. This lab is t
 Your forms will need to be complex. Your form for a new figure should dynamically generate checkboxes out of the available landmarks and titles. It should also have fields for creating a new landmark and/or a new title. The controller action that catches the POST request sent by submitting this form should account for this. The same is true of your form for editing a given figure. Read the tests very carefully to understand how you should set up your forms. 
 
 
+Here's a sample form you can use for reference:
+
+![sample form](https://curriculum-content.s3.amazonaws.com/web-development/Sinatra/nyc-sinatra-sample-form.png)
+
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
