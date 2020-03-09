@@ -137,6 +137,4 @@ Here's a sample form you can use for reference:
 
 ![sample form](https://curriculum-content.s3.amazonaws.com/web-development/Sinatra/nyc-sinatra-sample-form.png)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
-
 <p class='util--hide'>View <a href='https://learn.co/lessons/nyc-sinatra'>Sinatra NYC</a> on Learn.co and start learning to code for free.</p>
